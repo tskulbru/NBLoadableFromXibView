@@ -1,6 +1,6 @@
 # NBLoadableFromXibView
 
-[![CI Status](http://img.shields.io/travis/Torstein Skulbru/NBLoadableFromXibView.svg?style=flat)](https://travis-ci.org/Torstein Skulbru/NBLoadableFromXibView)
+[![CI Status](http://img.shields.io/travis/tskulbru/NBLoadableFromXibView.svg?style=flat)](https://travis-ci.org/tskulbru/NBLoadableFromXibView)
 [![Version](https://img.shields.io/cocoapods/v/NBLoadableFromXibView.svg?style=flat)](http://cocoapods.org/pods/NBLoadableFromXibView)
 [![License](https://img.shields.io/cocoapods/l/NBLoadableFromXibView.svg?style=flat)](http://cocoapods.org/pods/NBLoadableFromXibView)
 [![Platform](https://img.shields.io/cocoapods/p/NBLoadableFromXibView.svg?style=flat)](http://cocoapods.org/pods/NBLoadableFromXibView)
@@ -22,7 +22,7 @@ pod "NBLoadableFromXibView"
 
 ## Author
 
-Torstein Skulbru, torstein.skulbru@evry.com
+Torstein Skulbru
 
 ## License
 

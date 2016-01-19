@@ -1,0 +1,6 @@
+framework module Pods_NBLoadableFromXibView_Tests {
+  umbrella header "Pods-NBLoadableFromXibView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

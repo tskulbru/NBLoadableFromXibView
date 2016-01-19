@@ -1,0 +1,25 @@
+{
+  "name": "NBLoadableFromXibView",
+  "version": "0.1.0",
+  "summary": "A short description of NBLoadableFromXibView.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/NBLoadableFromXibView",
+  "license": "MIT",
+  "authors": {
+    "Torstein Skulbru": "torstein.skulbru@evry.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/NBLoadableFromXibView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "NBLoadableFromXibView": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
