@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E96B6F234ADF07888B6C5C6B'
+               BlueprintIdentifier = '6D70CB0601599B07065D9E1D'
                BlueprintName = 'NBLoadableFromXibView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NBLoadableFromXibView.framework'>

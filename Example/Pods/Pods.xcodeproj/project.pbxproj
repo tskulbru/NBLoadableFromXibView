@@ -13,7 +13,6 @@
 		0492354DA7EF0C9068F7B4E8F74001B0 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14E97EFA39EE5B8E0791218121044BD /* FailureMessage.swift */; };
 		060CBF359B1F1718458D1167088E91C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		0A6E71555F55082003A3DB2B03CA85D2 /* AsyncMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130A59DDB32BBDCFB4ABB11FA368C7F8 /* AsyncMatcherWrapper.swift */; };
-		0D9167208D14FF149659681D42D34D0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		0F49254A4C560DD4696936F6080756DC /* Nimble-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4A7503AAF3BA8144C1103305BE6E6A9 /* Nimble-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		114A82869C7B81F37127190D1FE0585F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		1182D9E9697D7267D9D4C08EFD509182 /* NimbleSnapshotsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE77204D4845498864080BE9D314C76 /* NimbleSnapshotsConfiguration.swift */; };
@@ -22,8 +21,9 @@
 		1E28F9362956B758C4C981D3C1129C90 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BD571A5BAA6FE5093A498526F8027C /* BeGreaterThan.swift */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C47926C9D29EC2518DD71AA52EC385 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		1F9A73FCE8FB5B498DDBE09A673804EF /* Nimble-Snapshots-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E13647534D1220F6C05382BE763A06B6 /* Nimble-Snapshots-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20D947ED611C58CB8F254C311A2773A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E7E4508E1A8CC3DDFF89F639AA1A3 /* UIKit.framework */; };
 		20DED612A8439132802DB427AF033FE8 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B2579450CF15E307A3DE58AA966D69F3 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24911A42742EB45C02EDDA0AAB778BA8 /* NBLoadableFromXibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B541379A21DF9AF3D0DD59EF1B51F792 /* NBLoadableFromXibView-dummy.m */; };
+		27FF3F23F989B87A4D17B1262EBB1EFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824E7E4508E1A8CC3DDFF89F639AA1A3 /* UIKit.framework */; };
 		2D3B916F7168E9412EDB95BA203A5BB4 /* ThrowError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9F459E31DA81F5231DDC1B69332F8E /* ThrowError.swift */; };
 		33264C6A7A3536AD91EF42B3E8CC8220 /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18139039A0FE80ADC6A3985117366A4 /* BeGreaterThanOrEqualTo.swift */; };
@@ -62,7 +62,6 @@
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF5FFAEFCCB6ED3B214EB7D8A09278F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BFD25B1BB1116D8AC47E2C3874C5B76 /* ObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29796A65251B88A8DADB8498350E0A1C /* ObjCMatcher.swift */; };
 		7DA9FF8513AA48310B15A0744A541818 /* SourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BDADBB262C5FFFF97834DD116EAE46 /* SourceLocation.swift */; };
-		7EAAC0A30862152751945A494A2FBBAD /* NBLoadableFromXibView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3981B3F0A69186F2D3354838DF1BF6E /* NBLoadableFromXibView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DE002C91FBB91E22ACE186DB505955BE /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		831D33A4C5C5BBC1EC158D9A236C61D7 /* NimbleXCTestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32771F017408506D7418E4ABDD594BA9 /* NimbleXCTestHandler.swift */; };
 		86DABE920F2113B8D96ED9E8C76390C1 /* HaveValidSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDFD38206302BDD75F4CF1998D5DD4 /* HaveValidSnapshot.swift */; };
@@ -87,12 +86,12 @@
 		BAB03677AA4F12424494BEAF80671E82 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C61FB5D5A77F0F466C68BEF9983217F /* Example.swift */; };
 		BB4F35062294C1A461DA3CEF6306A1DB /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D4AFE9465C639DF4E67D1EF16C7D55 /* HaveCount.swift */; };
 		BCB53F24DCADF12601B8BA90AE3190AE /* BeLessThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9500663E16F1B37B02D2F844A81685E0 /* BeLessThan.swift */; };
+		BE1DA3A2F6B1392850E0A092517F3268 /* NBLoadableFromXibView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4F211E66E5B159D68BCA08A5ABC7598 /* NBLoadableFromXibView.bundle */; };
 		C150157922BAEB1F93635508FB59E618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F567A0F84D52EF356BEDCB9F4C9AE7 /* Foundation.framework */; };
 		C322EEEEAE1C91BAF10A82B6FB89BCE5 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4030C33005C7A4BF69E989BB2F4A8 /* Closures.swift */; };
 		C63AB521EA514A811A167E507C0CF9AD /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AA52B39A5AD52E8313E98B6A7A797F /* Expression.swift */; };
 		C9AC658F3FCB67B50E96313C2687B33D /* MatcherProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0990E92CE6C898CE1BE2E493E8988F /* MatcherProtocols.swift */; };
 		CAAED5FB81DB035A9EC080917C783FA6 /* AdapterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411D20370700F56223758955E1BDD0B /* AdapterProtocols.swift */; };
-		CACB57047E51786891701E9ABC2C4471 /* NBLoadableFromXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D7104D90D5651FA4FCEED6B0EBA21 /* NBLoadableFromXibView.swift */; };
 		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C21D19ECC22ADCD2115C888EE056B6DA /* FBSnapshotTestCase-dummy.m */; };
 		CD9D31B6063C50689EAC2A0745C282DC /* ObjCExpectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE47970A7AC09344E95FFCDD3B7C88C /* ObjCExpectation.swift */; };
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5166BFC1F06A657509C298DE92FCE38A /* QuartzCore.framework */; };
@@ -105,7 +104,7 @@
 		D7B45D4600C6166C124C0A926EE65284 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AD076B851097DA10B51E31A8E7BE6C /* Functional.swift */; };
 		D7C8157F419F92C6A81450CF0203BE5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899697610CD89ABF71B0C316A2B370ED /* XCTest.framework */; };
 		DAAC324891274180BCC978A6D6729A82 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB4E9C6675956E8581E915D8A5989E /* Callsite.swift */; };
-		DC1A88818E7F7DC1608CCF04C3702DD8 /* NBLoadableFromXibView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4F211E66E5B159D68BCA08A5ABC7598 /* NBLoadableFromXibView.bundle */; };
+		DC8A955DCD395F66295E0A418A9A55E3 /* NBLoadableFromXibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B541379A21DF9AF3D0DD59EF1B51F792 /* NBLoadableFromXibView-dummy.m */; };
 		DEE170DD3064F7343884A4016546B762 /* DSL+Wait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57E9A961DA8501663351FDF21E0001 /* DSL+Wait.swift */; };
 		E19167797EF881C97BBFB5607406EC56 /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6180E032770F8A54A2E991FB0FAB3227 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2FBD93D72DF01427486D1A6853FC689 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491EBCAB8EBE519908483A437F0A5302 /* Expectation.swift */; };
@@ -115,8 +114,10 @@
 		EE75BFF7CEB96127A821936D107A0183 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0CE398ED47A90A49FD1D48ED4788C3 /* QCKDSL.m */; };
 		F10FD3129985704FA1610F84FB98EDF5 /* Stringers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CF27DB4E86CF523DBB7718DD1F8A5D /* Stringers.swift */; };
 		F1D4A8A1FC68EFA7F45945908D70A352 /* BeNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D7137A6D7EFBB6E057D6D4955B5B90 /* BeNil.swift */; };
+		F545D805E1398B5B4E8D8D481E2DAF80 /* NBLoadableFromXibView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3981B3F0A69186F2D3354838DF1BF6E /* NBLoadableFromXibView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8244422337BCD152CEB1F1B35CF6FF1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43446494C68555558AD6AE7D61940B4A /* Filter.swift */; };
 		FB1347627E64CA7E98C19DC985E13D95 /* Equal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A0C67CCC284B4A2453C8A749B2FCE /* Equal.swift */; };
+		FD42B2E69FCF52CD86CC57D836E03618 /* NBLoadableFromXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D7104D90D5651FA4FCEED6B0EBA21 /* NBLoadableFromXibView.swift */; };
 		FE7E8E5A32958A217D235BA8321FD47D /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 442017D54DF74E7636CDB5ADE4404ABF /* QuickConfiguration.m */; };
 		FFC311AC1E19A23E0EB7B1B3A7A5A744 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929FDFE7C05D7BBF5060D429BF214EF4 /* RaisesException.swift */; };
 /* End PBXBuildFile section */
@@ -143,6 +144,13 @@
 			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		74938F520CAB78B90B9E3D71036D18E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 009CE498BF0E424996C2EB5FE64A99FE;
+			remoteInfo = "NBLoadableFromXibView-NBLoadableFromXibView";
+		};
 		81CE73E2793957C2A06DFC4E9C3B265A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -168,7 +176,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E0063F971EC54D6A5083633845F6F208;
+			remoteGlobalIDString = 19947B110FAE46A28F0C29FADAD9302D;
 			remoteInfo = NBLoadableFromXibView;
 		};
 		A596DD82535447F0293D0C29F0C2B7F8 /* PBXContainerItemProxy */ = {
@@ -178,18 +186,11 @@
 			remoteGlobalIDString = C5DB5104FED3C10F78978AFC810982B9;
 			remoteInfo = Nimble;
 		};
-		C8E9D0972991224D078B24E9D7A6ADE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02289FE98A33867DC3DB2D518ABEF6A9;
-			remoteInfo = "NBLoadableFromXibView-NBLoadableFromXibView";
-		};
 		F57F4C41B4BF128B5D74869C727F3025 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E0063F971EC54D6A5083633845F6F208;
+			remoteGlobalIDString = 19947B110FAE46A28F0C29FADAD9302D;
 			remoteInfo = NBLoadableFromXibView;
 		};
 /* End PBXContainerItemProxy section */
@@ -346,6 +347,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		23BE33170A99C8DF0E510522677B0F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53799BFC446EFA757FD1305D22A8B6A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -402,18 +410,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96FC6C1927D78A87795FB0EE0E15F0AD /* Frameworks */ = {
+		F1FEE9E02F984E91395BEBE902509516 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D9167208D14FF149659681D42D34D0F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA0FF4950FFCD6317CDD527A9C3AD1DD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				27FF3F23F989B87A4D17B1262EBB1EFC /* Foundation.framework in Frameworks */,
+				20D947ED611C58CB8F254C311A2773A4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -769,14 +771,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		39D7ACFED06B8BAA33E28DB39C20D33D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EAAC0A30862152751945A494A2FBBAD /* NBLoadableFromXibView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5855386A493ECD26805FE66499932010 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -803,6 +797,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F9A73FCE8FB5B498DDBE09A673804EF /* Nimble-Snapshots-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B2B362A94828F1614B6A7C09E388D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F545D805E1398B5B4E8D8D481E2DAF80 /* NBLoadableFromXibView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -835,13 +837,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		02289FE98A33867DC3DB2D518ABEF6A9 /* NBLoadableFromXibView-NBLoadableFromXibView */ = {
+		009CE498BF0E424996C2EB5FE64A99FE /* NBLoadableFromXibView-NBLoadableFromXibView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F54E98DD56DC0DC9C32AB6531A0B3C6 /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView-NBLoadableFromXibView" */;
+			buildConfigurationList = 3194B2B10D1BF48DAC1C73C05B1B3D8F /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView-NBLoadableFromXibView" */;
 			buildPhases = (
-				DFB682E44E14F8B8EBD30CACEC2A2CE8 /* Sources */,
-				BA0FF4950FFCD6317CDD527A9C3AD1DD /* Frameworks */,
-				4D9B662F9EAAA03866DE1D4B4589D60E /* Resources */,
+				6454EE6AFA2D0CF70F140EC6C1D56EA1 /* Sources */,
+				23BE33170A99C8DF0E510522677B0F0B /* Frameworks */,
+				B46F96ECEB8F02BDFA1486F89E566EF6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -892,6 +894,25 @@
 			name = "Pods-NBLoadableFromXibView_Tests";
 			productName = "Pods-NBLoadableFromXibView_Tests";
 			productReference = 9FFEE52A6D91FC8674B1E386216711A9 /* Pods_NBLoadableFromXibView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19947B110FAE46A28F0C29FADAD9302D /* NBLoadableFromXibView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D963C4E676E86822606B4C8D3DB8D0 /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView" */;
+			buildPhases = (
+				D0D26D89066C89C016B93274D0F78021 /* Sources */,
+				F1FEE9E02F984E91395BEBE902509516 /* Frameworks */,
+				87C8684340B4D9D373D2DB254D738A8D /* Resources */,
+				B0B2B362A94828F1614B6A7C09E388D9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485EA0DF4BCAF9BCEC45CB9FC9D82FAF /* PBXTargetDependency */,
+			);
+			name = NBLoadableFromXibView;
+			productName = NBLoadableFromXibView;
+			productReference = 9B89BD396F912F6338A515A0FEE13C95 /* NBLoadableFromXibView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
@@ -963,25 +984,6 @@
 			productReference = 3E3AC6A1568A3A587F7CC1C91449D620 /* Pods_NBLoadableFromXibView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E0063F971EC54D6A5083633845F6F208 /* NBLoadableFromXibView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F0EB93E75C24A282E1FDD7F3F27778D /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView" */;
-			buildPhases = (
-				FFECEDC72612893BFF96E84EC49FD4C4 /* Sources */,
-				96FC6C1927D78A87795FB0EE0E15F0AD /* Frameworks */,
-				1BAEE55EC71D1388FC3134DB2721D9AE /* Resources */,
-				39D7ACFED06B8BAA33E28DB39C20D33D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DC919F187D083527B4A39043CB6E7AEA /* PBXTargetDependency */,
-			);
-			name = NBLoadableFromXibView;
-			productName = NBLoadableFromXibView;
-			productReference = 9B89BD396F912F6338A515A0FEE13C95 /* NBLoadableFromXibView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1004,8 +1006,8 @@
 			projectRoot = "";
 			targets = (
 				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
-				E0063F971EC54D6A5083633845F6F208 /* NBLoadableFromXibView */,
-				02289FE98A33867DC3DB2D518ABEF6A9 /* NBLoadableFromXibView-NBLoadableFromXibView */,
+				19947B110FAE46A28F0C29FADAD9302D /* NBLoadableFromXibView */,
+				009CE498BF0E424996C2EB5FE64A99FE /* NBLoadableFromXibView-NBLoadableFromXibView */,
 				C5DB5104FED3C10F78978AFC810982B9 /* Nimble */,
 				0E359681996C9E927392436D5FB85B25 /* Nimble-Snapshots */,
 				C9B70394610C152C7316C063B4A48E33 /* Pods-NBLoadableFromXibView_Example */,
@@ -1016,15 +1018,15 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1BAEE55EC71D1388FC3134DB2721D9AE /* Resources */ = {
+		87C8684340B4D9D373D2DB254D738A8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1A88818E7F7DC1608CCF04C3702DD8 /* NBLoadableFromXibView.bundle in Resources */,
+				BE1DA3A2F6B1392850E0A092517F3268 /* NBLoadableFromXibView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D9B662F9EAAA03866DE1D4B4589D60E /* Resources */ = {
+		B46F96ECEB8F02BDFA1486F89E566EF6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1046,6 +1048,13 @@
 				788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */,
 				163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */,
 				EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6454EE6AFA2D0CF70F140EC6C1D56EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1132,10 +1141,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFB682E44E14F8B8EBD30CACEC2A2CE8 /* Sources */ = {
+		D0D26D89066C89C016B93274D0F78021 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC8A955DCD395F66295E0A418A9A55E3 /* NBLoadableFromXibView-dummy.m in Sources */,
+				FD42B2E69FCF52CD86CC57D836E03618 /* NBLoadableFromXibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1155,15 +1166,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFECEDC72612893BFF96E84EC49FD4C4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24911A42742EB45C02EDDA0AAB778BA8 /* NBLoadableFromXibView-dummy.m in Sources */,
-				CACB57047E51786891701E9ABC2C4471 /* NBLoadableFromXibView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1172,6 +1174,12 @@
 			name = Quick;
 			target = B7B7BD15A8CB5F16F8AA27B9095171A4 /* Quick */;
 			targetProxy = 137A8FCBA265AB11518087803F890BCA /* PBXContainerItemProxy */;
+		};
+		485EA0DF4BCAF9BCEC45CB9FC9D82FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NBLoadableFromXibView-NBLoadableFromXibView";
+			target = 009CE498BF0E424996C2EB5FE64A99FE /* NBLoadableFromXibView-NBLoadableFromXibView */;
+			targetProxy = 74938F520CAB78B90B9E3D71036D18E5 /* PBXContainerItemProxy */;
 		};
 		4D4951DDE4B80E87FABE121524615175 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1188,7 +1196,7 @@
 		8871D733D22CB24885DDFA4CFE4FA86B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NBLoadableFromXibView;
-			target = E0063F971EC54D6A5083633845F6F208 /* NBLoadableFromXibView */;
+			target = 19947B110FAE46A28F0C29FADAD9302D /* NBLoadableFromXibView */;
 			targetProxy = F57F4C41B4BF128B5D74869C727F3025 /* PBXContainerItemProxy */;
 		};
 		ADB89D39AE1D43582882EA35078D97FF /* PBXTargetDependency */ = {
@@ -1200,7 +1208,7 @@
 		BE657B79439123E1534D24F896BBF0FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NBLoadableFromXibView;
-			target = E0063F971EC54D6A5083633845F6F208 /* NBLoadableFromXibView */;
+			target = 19947B110FAE46A28F0C29FADAD9302D /* NBLoadableFromXibView */;
 			targetProxy = 9A8F7327136ED8F1635B6B329F8664BE /* PBXContainerItemProxy */;
 		};
 		C0C275C6C1983CBB6B624EE775080624 /* PBXTargetDependency */ = {
@@ -1208,12 +1216,6 @@
 			name = FBSnapshotTestCase;
 			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
 			targetProxy = 5A85CC436F32737F1B6D289336EE3A72 /* PBXContainerItemProxy */;
-		};
-		DC919F187D083527B4A39043CB6E7AEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "NBLoadableFromXibView-NBLoadableFromXibView";
-			target = 02289FE98A33867DC3DB2D518ABEF6A9 /* NBLoadableFromXibView-NBLoadableFromXibView */;
-			targetProxy = C8E9D0972991224D078B24E9D7A6ADE5 /* PBXContainerItemProxy */;
 		};
 		E3D3E63540BBE32B60B506F221578C64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1349,6 +1351,18 @@
 			};
 			name = Debug;
 		};
+		4419280167ABF7189D4F67EA0E16089A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NBLoadableFromXibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		4CD472BC0A7A2D5815388224896692CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 65A48A077F35356D95916F8A306C8917 /* Nimble-Snapshots.xcconfig */;
@@ -1375,34 +1389,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		4D8A24179799CE1A664843506AEC4355 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NBLoadableFromXibView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = NBLoadableFromXibView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4EF564BEA62C557AE8F9B8C1693AA239 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1498,29 +1484,32 @@
 			};
 			name = Debug;
 		};
-		74C19AFFB5CD460B5CBA8BC4423A51BD /* Release */ = {
+		860C45953E8A8B6AFD38A67BC3698843 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBLoadableFromXibView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = NBLoadableFromXibView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		8F1E0CF830920F177F7DD2AFEEE4CD55 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = NBLoadableFromXibView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		9263636507E5A6C750D7DB8581979EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1607,6 +1596,46 @@
 			};
 			name = Release;
 		};
+		B7979D9BB0DF263D0AFABA2C4BF17F09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NBLoadableFromXibView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NBLoadableFromXibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C5FE2C5B568FD61A824B53D5F2F34074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = NBLoadableFromXibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		DA85F0F5E599D96CA1375806A1C784DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2EB7D7BC923B5F4F2AC31EB9D87890B6 /* Pods-NBLoadableFromXibView_Example.debug.xcconfig */;
@@ -1637,33 +1666,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		F1D1A959D84D581B9245E2AED5E6F78D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 916A9B2E42A802897B477E65313FE9DE /* NBLoadableFromXibView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NBLoadableFromXibView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NBLoadableFromXibView/NBLoadableFromXibView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = NBLoadableFromXibView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		F6AC1BCD0B9E396F23360B23F3576057 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1754,20 +1756,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F54E98DD56DC0DC9C32AB6531A0B3C6 /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView-NBLoadableFromXibView" */ = {
+		3194B2B10D1BF48DAC1C73C05B1B3D8F /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView-NBLoadableFromXibView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F1E0CF830920F177F7DD2AFEEE4CD55 /* Debug */,
-				74C19AFFB5CD460B5CBA8BC4423A51BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F0EB93E75C24A282E1FDD7F3F27778D /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4D8A24179799CE1A664843506AEC4355 /* Debug */,
-				F1D1A959D84D581B9245E2AED5E6F78D /* Release */,
+				4419280167ABF7189D4F67EA0E16089A /* Debug */,
+				C5FE2C5B568FD61A824B53D5F2F34074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1786,6 +1779,15 @@
 			buildConfigurations = (
 				F6AC1BCD0B9E396F23360B23F3576057 /* Debug */,
 				0FEA48C7EA059E07D8BD8F13B811F845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D963C4E676E86822606B4C8D3DB8D0 /* Build configuration list for PBXNativeTarget "NBLoadableFromXibView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7979D9BB0DF263D0AFABA2C4BF17F09 /* Debug */,
+				860C45953E8A8B6AFD38A67BC3698843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

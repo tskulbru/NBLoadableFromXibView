@@ -1,15 +1,8 @@
-#
-# Be sure to run `pod lib lint NBLoadableFromXibView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "NBLoadableFromXibView"
   s.version          = "0.1.0"
-  s.summary          = "A short description of NBLoadableFromXibView."
+  s.summary          = "Easily create a reusable xib and class to put anywhere."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +10,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Wouldnt it be cool if you could easily drop a UIView on your storyboard set its class and have it automatically loaded from another XIB file? Using this library you can do just that. You can easily create reusable components, just subclass NBLoadableFromXibView, create a XIB and set its file owner to the subclass.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/NBLoadableFromXibView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/tskulbru/NBLoadableFromXibView"
   s.license          = 'MIT'
-  s.author           = { "Torstein Skulbru" => "torstein.skulbru@evry.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/NBLoadableFromXibView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { "Torstein Skulbru" => "serrghi@gmail.com" }
+  s.source           = { :git => "https://github.com/tskulbru/NBLoadableFromXibView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/tskulbru'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -35,6 +28,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
