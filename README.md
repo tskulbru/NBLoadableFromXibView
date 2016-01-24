@@ -9,6 +9,13 @@
 
 ## Usage
 
+1. Create a subclass of NBLoadableFromXibView
+2. Create a XIB file and set it's owner to the subclass you just created
+3. Design the xib just as you want, drag outlets, the normal stuff.
+4. Either add the view via code, or through the storyboard. 
+
+See the example project if you have any trouble.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
@@ -54,14 +61,6 @@ github "tskulbru/NBLoadableFromXibView" ~> 0.1.0
 ```
 
 Run `carthage update` to build the framework and drag the built `NBLoadableFromXibView.framework` into your Xcode project.
-
-## Usage
-1. Create a subclass of NBLoadableFromXibView
-2. Create a XIB file and set it's owner to the subclass you just created
-3. Design the xib just as you want, drag outlets, the normal stuff.
-4. Either add the view via code, or through the storyboard. 
-
-See the example project if you have any trouble.
 
 ## Author
 
